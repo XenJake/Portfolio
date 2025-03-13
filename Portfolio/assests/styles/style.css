@@ -1,0 +1,81 @@
+/* General Styles */@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+VN:wght@100..400&display=swap');
+:root {
+    --title-font:montserrat;
+}
+.card-nav{
+    background-color: aqua;
+    font-family: var(--title-font);
+    box-shadow: 0 4px 8px 0 rgba(3, 189, 241, 0.516);
+    color:rgb(12, 12, 96)
+}
+
+.card-nav a{
+    text-decoration: none;
+    padding: 15px;
+    right: 20%;
+}
+.profile-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: var(--title-font);
+    height: 500px;
+}
+.profile-card a{
+    text-decoration: none;
+}
+.profile-card a:hover{
+color:aqua;
+}
+.channel img{
+    width:500px;
+    position: relative;
+}
+.me img{
+    width: 300px;
+    position: relative;
+    float: right;
+    margin-top: -300px;
+}
+.achievements-card{
+    box-shadow: 0 4px 8px 0 rgb(115, 109, 109);
+    width: 500px;
+    height: 300px;
+    list-style-type: circle;
+    color: darkblue;
+    font-family: var(--title-font);
+    background-color:rgb(0, 153, 255);
+}
+.projects-card {
+    color: darkblue;
+    background-color:rgb(0, 153, 255);
+    box-shadow: 0 4px 8px 0 rgb(115, 109, 109);
+    width: 500px;
+    height: 300px;
+    list-style-type: circle;
+    font-family: var(--title-font);
+    float: right;
+}
+.projects-card a{
+    text-decoration: none;
+}
+.projects-card a:hover{
+    color:rgb(0, 0, 74);
+    text-decoration: underline;
+}
+.contact-card{
+    box-shadow: 0 4px 8px 0 rgb(115, 109, 109);
+    width: 500px;
+    height: 300px;
+    color: darkblue;
+    font-family: var(--title-font);
+    background-color:rgb(0, 153, 255);
+}
+#projects {
+    float: right;
+}
+footer{
+    background-color:rgb(15, 15, 35);
+    color: white;
+    align-items: center;
+    margin: 0;
+}
